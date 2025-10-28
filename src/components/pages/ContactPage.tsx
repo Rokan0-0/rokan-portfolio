@@ -120,10 +120,10 @@ export function ContactPage() {
                   <div>
                     <div className="text-muted-foreground mb-1">Email</div>
                     <a
-                      href="mailto:porter@example.com"
+                      href="mailto:dporteiru@gmail.com"
                       className="hover:text-primary transition-colors"
                     >
-                      porter@example.com
+                      dporteiru@gmail.com
                     </a>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ export function ContactPage() {
                   <MapPin className="w-5 h-5 text-muted-foreground mt-0.5" />
                   <div>
                     <div className="text-muted-foreground mb-1">Location</div>
-                    <div>San Francisco, CA</div>
+                    <div>Remote</div>
                   </div>
                 </div>
               </div>
@@ -142,7 +142,7 @@ export function ContactPage() {
               <h3 className="mb-4">Connect With Me</h3>
               <div className="space-y-3">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Rokan0-0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors group"
@@ -151,7 +151,7 @@ export function ContactPage() {
                   <span>GitHub</span>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/oluwadamilola-porter"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors group"
@@ -160,7 +160,7 @@ export function ContactPage() {
                   <span>LinkedIn</span>
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/DamilolaPorter"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors group"

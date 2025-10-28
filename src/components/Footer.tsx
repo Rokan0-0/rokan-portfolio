@@ -13,7 +13,7 @@ export function Footer() {
           
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/Rokan0-0"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-accent transition-colors group"
@@ -22,7 +22,7 @@ export function Footer() {
               <Github className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/oluwadamilola-porter"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-accent transition-colors group"
@@ -31,7 +31,7 @@ export function Footer() {
               <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/DamilolaPorter"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-accent transition-colors group"
