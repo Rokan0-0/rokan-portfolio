@@ -668,10 +668,6 @@
     min-height: calc(var(--spacing) * 16);
   }
 
-  .min-h-\[90vh\] {
-    min-height: 90vh;
-  }
-
   .min-h-\[150px\] {
     min-height: 150px;
   }
@@ -1157,6 +1153,10 @@
     padding-block: calc(var(--spacing) * 20);
   }
 
+  .py-32 {
+    padding-block: calc(var(--spacing) * 32);
+  }
+
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
   }
@@ -1337,12 +1337,6 @@
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
 
-  .transition-shadow {
-    transition-property: box-shadow;
-    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
-  }
-
   .transition-transform {
     transition-property: transform, translate, scale, rotate;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
@@ -1482,6 +1476,18 @@
 
   .placeholder\:text-muted-foreground::placeholder {
     color: var(--muted-foreground);
+  }
+
+  @media (hover: hover) {
+    .hover\:border-primary\/50:hover {
+      border-color: var(--primary);
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:border-primary\/50:hover {
+        border-color: color-mix(in oklab, var(--primary) 50%, transparent);
+      }
+    }
   }
 
   @media (hover: hover) {
@@ -1774,6 +1780,12 @@
   }
 
   @media (width >= 64rem) {
+    .lg\:py-40 {
+      padding-block: calc(var(--spacing) * 40);
+    }
+  }
+
+  @media (width >= 64rem) {
     .lg\:text-2xl {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -1956,7 +1968,7 @@
 
 :root {
   --font-size: 16px;
-  --background: #fff;
+  --background: #f8f8fa;
   --foreground: oklch(.145 0 0);
   --card: #fff;
   --card-foreground: oklch(.145 0 0);

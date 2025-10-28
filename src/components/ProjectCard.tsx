@@ -18,7 +18,7 @@ export function ProjectCard({ title, description, image, tags, liveUrl, githubUr
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      className="group relative bg-card border border-border rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300"
+      className="group relative bg-card border border-border rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-primary/5 hover:border-primary/50 transition-all duration-300"
     >
       <div className="aspect-video overflow-hidden bg-muted">
         <img

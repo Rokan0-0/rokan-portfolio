@@ -135,7 +135,7 @@ export function AboutPage() {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.5 }}
                 >
-                  <Card className="p-6 h-full hover:shadow-lg transition-shadow">
+                  <Card className="p-6 h-full hover:shadow-lg hover:border-primary/50 transition-all duration-300">
                     <div className="flex items-center gap-3 mb-4">
                       <div className="p-2 rounded-lg bg-primary/10">
                         <Icon className="w-5 h-5 text-primary" />
