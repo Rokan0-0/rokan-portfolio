@@ -35,7 +35,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link to="/" className="group">
             <span className="text-xl lg:text-2xl tracking-tight">
-              <span className="opacity-90">Rokan</span>
+              <span className="opacity-90">Porter</span>
               <span className="inline-block w-2 h-2 bg-primary rounded-full ml-1 group-hover:animate-pulse" />
             </span>
           </Link>

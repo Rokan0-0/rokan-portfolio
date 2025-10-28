@@ -2,9 +2,6 @@
 @layer properties {
   @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
     *, :before, :after, ::backdrop {
-      --tw-translate-x: 0;
-      --tw-translate-y: 0;
-      --tw-translate-z: 0;
       --tw-space-y-reverse: 0;
       --tw-border-style: solid;
       --tw-gradient-position: initial;
@@ -43,6 +40,9 @@
       --tw-backdrop-saturate: initial;
       --tw-backdrop-sepia: initial;
       --tw-duration: initial;
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-translate-z: 0;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
@@ -468,16 +468,8 @@
     bottom: calc(var(--spacing) * 0);
   }
 
-  .bottom-8 {
-    bottom: calc(var(--spacing) * 8);
-  }
-
   .left-0 {
     left: calc(var(--spacing) * 0);
-  }
-
-  .left-1\/2 {
-    left: 50%;
   }
 
   .z-10 {
@@ -640,10 +632,6 @@
     height: calc(var(--spacing) * .5);
   }
 
-  .h-1\.5 {
-    height: calc(var(--spacing) * 1.5);
-  }
-
   .h-2 {
     height: calc(var(--spacing) * 2);
   }
@@ -692,10 +680,6 @@
     min-height: 100vh;
   }
 
-  .w-1\.5 {
-    width: calc(var(--spacing) * 1.5);
-  }
-
   .w-2 {
     width: calc(var(--spacing) * 2);
   }
@@ -706,10 +690,6 @@
 
   .w-5 {
     width: calc(var(--spacing) * 5);
-  }
-
-  .w-6 {
-    width: calc(var(--spacing) * 6);
   }
 
   .w-fit {
@@ -742,11 +722,6 @@
 
   .shrink-0 {
     flex-shrink: 0;
-  }
-
-  .-translate-x-1\/2 {
-    --tw-translate-x: calc(calc(1 / 2 * 100%) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
   }
 
   .animate-pulse {
@@ -917,16 +892,6 @@
     border-color: var(--input);
   }
 
-  .border-muted-foreground\/30 {
-    border-color: var(--muted-foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .border-muted-foreground\/30 {
-      border-color: color-mix(in oklab, var(--muted-foreground) 30%, transparent);
-    }
-  }
-
   .border-primary\/20 {
     border-color: var(--primary);
   }
@@ -995,16 +960,6 @@
 
   .bg-muted {
     background-color: var(--muted);
-  }
-
-  .bg-muted-foreground\/50 {
-    background-color: var(--muted-foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-muted-foreground\/50 {
-      background-color: color-mix(in oklab, var(--muted-foreground) 50%, transparent);
-    }
   }
 
   .bg-muted\/30 {
@@ -2081,24 +2036,6 @@ html {
   font-size: var(--font-size);
 }
 
-@property --tw-translate-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0;
-}
-
-@property --tw-translate-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0;
-}
-
-@property --tw-translate-z {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0;
-}
-
 @property --tw-space-y-reverse {
   syntax: "*";
   inherits: false;
@@ -2297,6 +2234,24 @@ html {
 @property --tw-duration {
   syntax: "*";
   inherits: false
+}
+
+@property --tw-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-translate-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
 }
 
 @property --tw-scale-x {

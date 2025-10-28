@@ -120,10 +120,10 @@ export function ContactPage() {
                   <div>
                     <div className="text-muted-foreground mb-1">Email</div>
                     <a
-                      href="mailto:rokan@example.com"
+                      href="mailto:porter@example.com"
                       className="hover:text-primary transition-colors"
                     >
-                      rokan@example.com
+                      porter@example.com
                     </a>
                   </div>
                 </div>
