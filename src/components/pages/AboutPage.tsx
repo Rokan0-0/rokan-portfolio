@@ -65,7 +65,7 @@ export function AboutPage() {
                 {/* Image container */}
                 <div className="relative aspect-square w-full max-w-[300px] rounded-2xl overflow-hidden border-2 border-border bg-card">
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1576558656222-ba66febe3dec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2MTQ5MzEyNnww&ixlib=rb-4.1.0&q=80&w=1080"
+                    src=""
                     alt="Porter Oluwadamilola - Full-Stack Developer"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
